@@ -1,31 +1,32 @@
-html{
-    zoom: 100%; 
-}
-body{
-
-    width: 100%;       
+html {
+    zoom: 100%;
 }
 
-header{
-    position: relative;
-    height: 100px;
-    top: 70px;
+body {
     width: 100%;
+    margin: 0; 
+}
+
+header {
     display: flex;
+    flex-direction: column; 
     align-items: center;
+    margin-top: 70px;
+    padding-bottom: 40px; 
 }
 
-header img{
-    position: relative;
-    top: 160px;
+header img {
     width: 100%;
+    margin-top: 20px; 
 }
-nav{
-    position: absolute;
-    width: 100%;
+
+nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%; 
+    margin-bottom: 70px;
+    padding: 20px 0; 
 }
 
 .nav-link{  
@@ -46,29 +47,22 @@ nav{
     text-shadow: 5px 5px black;
 }
 
-
-main{
-    position: relative;
-    width: 100%;
-    top: 100px;
+main{   
+   width: 100%;  
 }
 
 
 .info{
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 528px;
-    left: 0px;
-    top: 250px;
+    margin-top: 250px;
+    padding: 80px;
 }
 .info-img{
-    position: absolute;
-    width: 30%;
-    left: 65%;
+    margin-left: 200px;
 }
 .info-div{
-    position: absolute;
-    left: 5%;
     width: 50%;
 }
 .info-div h1{
@@ -96,6 +90,8 @@ main{
 }
 .call-butt{
     background-image: url(https://i.ibb.co/SnmxJRw/image.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -112,6 +108,8 @@ main{
 }
 .menu-butt{
     background-image: url(https://i.ibb.co/0hLc5Qw/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 600;
@@ -120,8 +118,7 @@ main{
     text-decoration: none;
     color: white;
     padding: 3% 10%;
-    margin: 5% 5% 5% 0%;
-   
+    margin: 5% 5% 5% 0%; 
 }
 .menu-butt:hover{
     box-shadow: 5px 5px #ce67a6;
@@ -129,13 +126,8 @@ main{
     transition: 0.5s ease-out;
 }
 
-
-.menu{
-    position: relative;
+.menu{ 
     width: 100%;
-    height: 40%;
-    left: 0px;
-    top:250px;
 }
 
 .menu h2{
@@ -148,20 +140,17 @@ main{
     text-align: center;
 }
 .menu-div{
-    position: relative;
-    left: 88px;
-    margin: 15% 0%;
+    margin-left: 80px;
+    margin-top: 15% ;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
 }
 .menu-img{
-    width: 30%;
-   
+    width: 30%;  
 }
 .menu-info{
-    position: absolute;
-    width: 50%;
-    left: 40%;
-    top: 0;
-   
+    width: 50%; 
 }
 .menu-info h3{
     color: #CE67A6;
@@ -244,14 +233,11 @@ main{
     line-height: normal;
 }
 
-
 .sale{
-    margin-top: 500px;
-    position: relative;
-    top: 400px;
+
+    margin-top: 200px;
     width: 100%;
     height: 407px;
-    left: 0px;
    
 }
 
@@ -292,11 +278,9 @@ main{
 }
 
 .about{
-    position: relative;
     width: 100%;
-    top: 200px;
-    left: 0px;
-   
+    margin-top: 200px;
+
 }
 .about-us{
      display: flex;
@@ -326,20 +310,17 @@ main{
 }
 
 footer{
-    position: relative;
     width: 100%;
-    top: 400px;
+    margin-top: 200px;
+    padding-bottom: 50px;
     height: 500px;
-    left: 0px;
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: space-around;
     background-image: url(https://i.ibb.co/PNMP547/image.png);
 }
-.footer-info{
-    position: absolute;
-    width: 50%;
-    left: 90px;
-}
+
 .footer-info h4{
     color: #000;
     font-family: Roboto;
@@ -358,8 +339,7 @@ footer{
 }
 
 .logo-img{
-    position: absolute;
-    left: 60%;
-    top:8%;
-    width: 28%;
+
+    margin-top:8%;
+    width: 30%;
 }
